@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos personalizados */
+body {
+  font-family: 'Arial', sans-serif;
+}
+.nav-link {
+  color: #ffffff; /* Color por defecto */
+}
+
+.nav-link.active {
+  color: #ff6347; /* Color para el enlace activo, cambia este valor según tu preferencia */
+  font-weight: bold;
+}
